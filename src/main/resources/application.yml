@@ -1,0 +1,9 @@
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          okata:
+            identityprovider:
+              entityid: https://dev-41937761.okta.com/app/exkb7pqf5ujeU9GkL5d7/sso/saml/metadata
+            # Other SAML configuration properties...
